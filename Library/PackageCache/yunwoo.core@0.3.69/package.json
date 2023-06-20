@@ -1,0 +1,18 @@
+{
+  "name": "yunwoo.core",
+  "displayName": "Core",
+  "version": "0.3.69",
+  "unity": "2021.1",
+  "description": null,
+  "license": "Commercial",
+  "category": null,
+  "keywords": null,
+  "author": {
+    "name": "YW",
+    "url": null
+  },
+  "dependencies": {
+    "yunwoo.unitypackage.message-pack": "2.3.112",
+    "yunwoo.unitypackage.double-numerics": "3.1.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "yunwoo.unitypackage.morelinq",
+  "displayName": "MoreLinq",
+  "author": { "name": "YW.UnityPackage", "url": "https://www.yunwoopc.co.kr/" },
+  "version": "3.4.2",
+  "unity": "2021.1",
+  "description": "MoreLinq 3.4.2",
+  "keywords": [ "MoreLinq", "Linq" ],
+  "license": "MIT",
+  "category": "Linq",
+  "dependencies": {
+  }
+}

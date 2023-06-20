@@ -1,0 +1,20 @@
+{
+  "name": "yunwoo.util",
+  "displayName": "Util",
+  "version": "0.3.124",
+  "unity": "2021.1",
+  "description": null,
+  "license": "Commercial",
+  "category": null,
+  "keywords": null,
+  "author": {
+    "name": "YW",
+    "url": null
+  },
+  "dependencies": {
+    "yunwoo.unitypackage.morelinq": "3.4.2",
+    "yunwoo.unitypackage.message-pack": "2.3.112",
+    "yunwoo.unitypackage.unirx": "7.1.0",
+    "yunwoo.core": "0.3.69"
+  }
+}

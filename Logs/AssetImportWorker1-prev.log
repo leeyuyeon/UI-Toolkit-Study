@@ -1,0 +1,383 @@
+Unity Editor version:    2022.3.1f1 (f18e0c1b5784)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3 (Build 22E252)
+Darwin version:          22.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/lyy/Documents/Unity/UniCadUIToolkit
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52780
+Successfully changed project path to: /Users/lyy/Documents/Unity/UniCadUIToolkit
+/Users/lyy/Documents/Unity/UniCadUIToolkit
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8488508224] Host "[IP] 192.168.50.124 [Port] 0 [Flags] 2 [Guid] 107748531 [EditorId] 107748531 [Version] 1048832 [Id] OSXEditor(0,iyuyeon-ui-Mac-Studio.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8488508224] Host "[IP] 192.168.50.124 [Port] 0 [Flags] 2 [Guid] 107748531 [EditorId] 107748531 [Version] 1048832 [Id] OSXEditor(0,iyuyeon-ui-Mac-Studio.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lyy/Documents/Unity/UniCadUIToolkit/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Ultra (high power)
+Metal devices available: 1
+0: Apple M1 Ultra (high power)
+Using device Apple M1 Ultra (high power)
+Initializing Metal device caps: Apple M1 Ultra
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56202
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001019 seconds.
+- Loaded All Assemblies, in  0.199 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.158 seconds
+Domain Reload Profiling: 357ms
+	BeginReloadAssembly (43ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (42ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (118ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/lyy/Documents/Unity/UniCadUIToolkit/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/lyy/Documents/Unity/UniCadUIToolkit/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.469 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1003ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (55.4 KB). Loaded Objects now: 3882.
+Memory consumption went from 140.4 MB to 140.3 MB.
+Total: 11.160083 ms (FindLiveObjects: 0.100875 ms CreateObjectMapping: 0.039791 ms MarkObjects: 10.906208 ms  DeleteObjects: 0.112625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:YW.TreeNode:  -> 555a7ea9af2f0f14c479ac47d9c2bbbd
+========================================================================
+Received Import Request.
+  Time since last request: 19213.528372 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '034d08031c6bf17de311f94a65ba7e21') in 0.034784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Util/Extension/VisualElementExtension.cs
+  artifactKey: Guid(1474d6bf324a49aeaa3828e55376bb17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Util/Extension/VisualElementExtension.cs using Guid(1474d6bf324a49aeaa3828e55376bb17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6c5a31936fc3ee61cc38ea90f93711b') in 0.015147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/DockableLayout.cs
+  artifactKey: Guid(67b8ff1e258643519987db7d3df91378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/DockableLayout.cs using Guid(67b8ff1e258643519987db7d3df91378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e28bed29706d6d290f9c7e1c6b4628d') in 0.002299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Util/MessagePack/MessagePackGenerated.cs
+  artifactKey: Guid(ec1b5ba31536dbb4aa551d5672c8e366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Util/MessagePack/MessagePackGenerated.cs using Guid(ec1b5ba31536dbb4aa551d5672c8e366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4bc9d9816371d2089975a7188bcb6765') in 0.002117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/Category/EdgeDirection.cs
+  artifactKey: Guid(854d8d80de2e409d8b485eef83ee5dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/Category/EdgeDirection.cs using Guid(854d8d80de2e409d8b485eef83ee5dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4501b778f7868212bcafe22982f46884') in 0.001798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/Data/DockableLayout.cs
+  artifactKey: Guid(daa85067c7944ba28cb2ea2e67e2dbaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/Data/DockableLayout.cs using Guid(daa85067c7944ba28cb2ea2e67e2dbaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76867d404729c5e8756138f891644dda') in 0.001892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Util/Marker/Marker.cs
+  artifactKey: Guid(1696be7bcdb14e279bd180d96a5fa82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Util/Marker/Marker.cs using Guid(1696be7bcdb14e279bd180d96a5fa82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f0debc7d68a572f29516268ba074d7c') in 0.001811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/UniCAD.UI-Toolkits/package.json
+  artifactKey: Guid(d80c5da07ebd97f479081a3318496da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/package.json using Guid(d80c5da07ebd97f479081a3318496da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c9251a0799acbd937e484dd971e4743') in 0.001561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Resources/Setting/Menu UI Setting.asset
+  artifactKey: Guid(42cac744b2874b843b52d3b6983afd3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Resources/Setting/Menu UI Setting.asset using Guid(42cac744b2874b843b52d3b6983afd3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2340a291093bd225c4731898c5366129') in 0.001521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Tree System/Resources/YwTreeNode.scss
+  artifactKey: Guid(d323b7c727324030a420ca5fb7259b89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Tree System/Resources/YwTreeNode.scss using Guid(d323b7c727324030a420ca5fb7259b89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b8725c8974d8a9f77c1817e5540d245') in 0.001573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Util/Extension/UiExtension.cs
+  artifactKey: Guid(a6699baa6bc34019b3d88c6448cec717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Util/Extension/UiExtension.cs using Guid(a6699baa6bc34019b3d88c6448cec717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2aaadd9ed67233655dca9bfc09e9e814') in 0.001414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/UniCAD.UI-Toolkits/UI Toolkit/PanelSettings.asset
+  artifactKey: Guid(160937bff78b4d02b73cfeef141e9610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/UI Toolkit/PanelSettings.asset using Guid(160937bff78b4d02b73cfeef141e9610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08ac0ab401c62223792c6574309b4eaf') in 0.049851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/Category/DockableLayoutItemDirection.cs
+  artifactKey: Guid(ae87f25aa3f84fb68796ede913e95dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/Category/DockableLayoutItemDirection.cs using Guid(ae87f25aa3f84fb68796ede913e95dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '597c6210dc3178ae5df944aed4d6ae90') in 0.002115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Util/MessagePack/MessagePackSerializerForJson.cs
+  artifactKey: Guid(f345d1ede2864e6ea29dafc74a894a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Util/MessagePack/MessagePackSerializerForJson.cs using Guid(f345d1ede2864e6ea29dafc74a894a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b92065323a6360fc4747027861d11fef') in 0.004628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/Resources/YwDockableLayoutItem.scss
+  artifactKey: Guid(5649dfd425854d70a24db531c9d9b2ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/Resources/YwDockableLayoutItem.scss using Guid(5649dfd425854d70a24db531c9d9b2ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3954c694632fe85c3988f4fe7fe9348') in 0.001861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/EdgeData.cs
+  artifactKey: Guid(78da4c72c5d6413ab088a1add926d5ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Dockable System/EdgeData.cs using Guid(78da4c72c5d6413ab088a1add926d5ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf581db3934a2c2b4778af0675b13e76') in 0.001737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/UniCAD.UI-Toolkits/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(4cd69767ba18462b9b8852bbd36dfc33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(4cd69767ba18462b9b8852bbd36dfc33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd10806f75a65bf5391c09d033ed27e5') in 0.048132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Menu System/MenuBar.cs
+  artifactKey: Guid(9f0bb68e52f94d0ab007b6119c3c0258) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Menu System/MenuBar.cs using Guid(9f0bb68e52f94d0ab007b6119c3c0258) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50526e10e490bc599cd14987117a078b') in 0.001877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Tab System/Resources/YwTab.scss
+  artifactKey: Guid(f5a458bb748d42d2aac73f4951e68c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Tab System/Resources/YwTab.scss using Guid(f5a458bb748d42d2aac73f4951e68c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4de5d6eb1a4698a83346647c6a0b7db1') in 0.001316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Menu System/Resources/YwMenu.scss
+  artifactKey: Guid(4d9301ebe9c04ed78455839cb99459a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Menu System/Resources/YwMenu.scss using Guid(4d9301ebe9c04ed78455839cb99459a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9068abf7f3db85f2ab02d5a72593d27') in 0.001229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/UniCAD.UI-Toolkits/Scripts/Util/Tester/Dummies.cs
+  artifactKey: Guid(99e113d15e14479b810e3fdf5240f0c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniCAD.UI-Toolkits/Scripts/Util/Tester/Dummies.cs using Guid(99e113d15e14479b810e3fdf5240f0c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e9ebbb8a762274ebff98a1f2d7b5267') in 0.001925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (69.0 KB). Loaded Objects now: 3883.
+Memory consumption went from 88.3 MB to 88.2 MB.
+Total: 10.811542 ms (FindLiveObjects: 0.095125 ms CreateObjectMapping: 0.038916 ms MarkObjects: 10.604542 ms  DeleteObjects: 0.072542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:YW.TreeNode:  -> 555a7ea9af2f0f14c479ac47d9c2bbbd
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

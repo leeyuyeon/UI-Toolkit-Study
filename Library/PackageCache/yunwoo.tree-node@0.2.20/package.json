@@ -1,0 +1,17 @@
+{
+  "name": "yunwoo.tree-node",
+  "displayName": "TreeNode",
+  "version": "0.2.20",
+  "unity": "2021.1",
+  "description": null,
+  "license": "Commercial",
+  "category": null,
+  "keywords": null,
+  "dependencies": {
+    "yunwoo.util": "0.3.42"
+  },
+  "author": {
+    "name": "YW",
+    "url": null
+  }
+}

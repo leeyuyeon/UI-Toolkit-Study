@@ -1,0 +1,13 @@
+{
+  "name": "yunwoo.unitypackage.unirx",
+  "displayName": "UniRx",
+  "author": { "name": "YW.UnityPackage", "url": "https://www.yunwoopc.co.kr/" },
+  "version": "7.1.0",
+  "unity": "2021.1",
+  "description": "",
+  "keywords": [ "unirx", "UniRx","Rx" ],
+  "license": "MIT",
+  "category": "Rx",
+  "dependencies": {
+	}
+}

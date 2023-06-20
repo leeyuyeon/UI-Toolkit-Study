@@ -1,0 +1,12 @@
+{
+  "name": "yunwoo.unitypackage.message-pack",
+  "displayName": "MessagePack",
+  "author": { "name": "YW.UnityPackage", "url": "https://www.yunwoopc.co.kr/" },
+  "version": "2.3.112",
+  "unity": "2021.1",
+  "description": "Message Pack 패키지 설명입니다.",
+  "keywords": [ "message","pack"],
+  "license": "MIT",
+  "category": "Message",
+  "dependencies": {}
+}
