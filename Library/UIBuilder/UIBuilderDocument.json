@@ -17,18 +17,16 @@
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UniCAD.UI-Toolkits/Scripts/Window.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "",
                 "m_VisualTreeAsset": {
-                    "fileID": 9197481963319205126,
-                    "guid": "de0917f675b5ae54e9dfc007de15ced3",
-                    "type": 3
+                    "instanceID": 0
                 },
                 "m_ActiveStyleSheet": {
                     "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "de0917f675b5ae54e9dfc007de15ced3",
-                    "UxmlPath": "Assets/UniCAD.UI-Toolkits/Scripts/Window.uxml",
+                    "UxmlGuid": "",
+                    "UxmlPath": "",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 350,
